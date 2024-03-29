@@ -1,0 +1,66 @@
+.todo-container {
+    background-color: #f0f0f0;
+    /* Background color for the todo container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adding shadow for a card-like effect */
+}
+
+#taskInput {
+    width: 80%;
+    /* Width of the input field */
+    font-size: 16px;
+    /* Font size of the input field */
+    padding: 10px;
+    /* Padding of the input field */
+    border: 1px solid #ccc;
+    /* Border of the input field */
+    border-radius: 5px;
+    /* Border radius of the input field */
+    margin-right: 10px;
+    /* Margin to separate input and button */
+}
+
+#addTaskBtn {
+    font-size: 16px;
+    /* Font size of the button */
+    padding: 10px 20px;
+    /* Padding of the button */
+    border: none;
+    /* Removing border of the button */
+    border-radius: 5px;
+    /* Border radius of the button */
+    background-color: #4caf50;
+    /* Background color of the button */
+    color: white;
+    /* Text color of the button */
+    cursor: pointer;
+    /* Adding cursor pointer on hover */
+}
+
+#addTaskBtn:hover {
+    background-color: #45a049;
+    /* Darker background color on hover */
+}
+
+#todo-list {
+    max-height: 300px;
+    /* Max height for the todo list with scrolling */
+    overflow-y: auto;
+    /* Adding vertical scrollbar if content exceeds max height */
+    padding-left: 0;
+    /* Removing default padding for the list */
+    list-style-type: none;
+    /* Removing default list style */
+   /* cursor: pointer; */
+}
+
+#todo-list li {
+    padding: 10px;
+    /* Padding for each todo list item */
+    border-bottom: 1px solid #ddd;
+    /* Adding bottom border for separation */
+    /* background-color: #8bc9f3; */
+    /* display:inline-block */
+}
